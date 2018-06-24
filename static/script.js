@@ -23,3 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
 });
+
+let title = document.getElementById('title');
+title.addEventListener('click', () => {
+  window.location.href = '/';
+});
