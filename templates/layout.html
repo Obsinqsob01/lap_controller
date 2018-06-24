@@ -10,9 +10,16 @@
   <body>
     <nav class="navbar is-info">
       <div class="navbar-brand">
-        <h3 class="subtitle text-light is-3">SC</h3>
+        <h3 class="subtitle is-3">SC</h3>
+
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
-      <div class="navbar-menu">
+
+      <div class="navbar-menu" id="navMenu">
         <div class="navbar-end">
           <a class="navbar-item" href="/send-file">Enviar Archivo</a>
         </div>
@@ -22,5 +29,7 @@
       {% block content %}
       {% endblock %}
     </div>
+
+    <script src="../static/script.js"></script>
   </body>
 </html>
