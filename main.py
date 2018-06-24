@@ -6,6 +6,6 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/hello')
-def hello():
-    return "Hello page"
+@app.route('/user/<username>')
+def user(username):
+    return render_template('user.html', username=username)
