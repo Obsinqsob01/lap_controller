@@ -11,9 +11,8 @@ def index():
 def send_file():
     if request.method == 'POST':
 
-        f = request.files['archivo']
-
-        f.save('./files/' + secure_filename(f.filename))
+        for file in request.files.getlist('archivo[]'):
+            file.save('./files/' + secure_filename(file.filename))
 
         return 'Se ha subido con exito!'
     elif request.method == 'GET':
