@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+  <h1 class="title text-center">Envio de archivo!</h1>
+
+  <div class="field">
+    <label class="label" for="nombreEntrada">Nombre de entrada:</label>
+    <input class="input" type="text" name="nombreEntrada" placeholder="archivo chido">
+  </div>
+  <div class="field">
+    <label class="label" for="archivoEntrada">Archivo</label>
+    <input type="file" name="archivoEntrada">
+  </div>
+{% endblock %}
