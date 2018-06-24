@@ -37,9 +37,12 @@ let btnUploadFile = document.getElementById('btnUploadFile');
 btnUploadFile.addEventListener('click', () => {
   var formData = new FormData();
 
-  console.log(archivoEntrada);
+  for (var i = 0; i < archivoEntrada[0].files.length; i++) {
+      formData.append(`archivo[]`, archivoEntrada[0].files[i]);
+  }
 
-  formData.append('archivo', archivoEntrada[0].files[0]);
+  console.log(archivoEntrada[0]);
+  console.log(formData);
 
   var xhttp = new XMLHttpRequest();
 
