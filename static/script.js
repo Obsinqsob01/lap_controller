@@ -24,7 +24,34 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
+// Click del titulo
 let title = document.getElementById('title');
 title.addEventListener('click', () => {
   window.location.href = '/';
+});
+
+// Subida de un archivo
+let archivoEntrada = document.getElementsByName('archivoEntrada');
+let btnUploadFile = document.getElementById('btnUploadFile');
+
+btnUploadFile.addEventListener('click', () => {
+  var formData = new FormData();
+
+  console.log(archivoEntrada);
+
+  formData.append('archivo', archivoEntrada[0].files[0]);
+
+  var xhttp = new XMLHttpRequest();
+
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      alert(this.response);
+
+      window.location.href = '/';
+    }
+  }
+
+  xhttp.open('POST', '/send-file', true);
+  xhttp.send(formData);
+
 });
