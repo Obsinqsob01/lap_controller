@@ -2,11 +2,14 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>User page</title>
+    <title>Home</title>
 
     <link rel="stylesheet" href="../static/style.css">
   </head>
   <body>
-    <h1>Hola {{ username }}</h1>
+
+    {% block content %}
+    {% endblock %}
+
   </body>
 </html>
