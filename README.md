@@ -1,2 +1,2 @@
 # lap_controller
-Web para controlar mi lap, incluye envio de archivos, cambio de wallpaper, etc.
+Web to control my laptop, it includes sending files, changing wallpapers, etc.
