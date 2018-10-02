@@ -14,14 +14,11 @@
 
 <tr><td colspan='2'>
 <br>
-<p align="center"></p>
+<p align="center">Lap_controller is a tool used for simple actions these include but are not limited to: opening URLs, running commands and or sending messages.</p>
 
 
 </tbody></table>
 
-## What is Lap_controller?
-
-Lap_controller is a tool used for simple actions these include but are not limited to: opening URLs, running commands and or sending messages.
 ## How was it made?
 
 lap_controller was made with the following technologies:
