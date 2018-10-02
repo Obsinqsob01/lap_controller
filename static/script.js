@@ -24,24 +24,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-// Click del titulo
+// Title click action listener
 let title = document.getElementById('title');
 title.addEventListener('click', () => {
   window.location.href = '/';
 });
 
-// Subida de un archivo
-let archivoEntrada = document.getElementsByName('archivoEntrada');
+// File upload
+let inputFile = document.getElementsByName('inputFile');
 let btnUploadFile = document.getElementById('btnUploadFile');
 
 btnUploadFile.addEventListener('click', () => {
   var formData = new FormData();
 
-  for (var i = 0; i < archivoEntrada[0].files.length; i++) {
-      formData.append(`archivo[]`, archivoEntrada[0].files[i]);
+  for (var i = 0; i < inputFile[0].files.length; i++) {
+      formData.append(`file[]`, inputFile[0].files[i]);
   }
 
-  console.log(archivoEntrada[0]);
+  console.log(inputFile[0]);
   console.log(formData);
 
   var xhttp = new XMLHttpRequest();

@@ -11,10 +11,10 @@ def index():
 def send_file():
     if request.method == 'POST':
 
-        for file in request.files.getlist('archivo[]'):
+        for file in request.files.getlist('file[]'):
             file.save('./files/' + secure_filename(file.filename))
 
-        return 'Se ha subido con exito!'
+        return 'The upload has finished successfully!'
     elif request.method == 'GET':
         return render_template('send-file.html')
 
