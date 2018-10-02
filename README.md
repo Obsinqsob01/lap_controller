@@ -1,16 +1,43 @@
-# lap_controller
+<table>
+<tbody align="center">
 
-Welcome to this project!
+<tr>
+<td colspan='2'>
 
-## What is lap_controller
+<h1>Lap_controller</h1>
+<!-- <img src=""/> A place to add in a link to your banner -->
+<h4> <i>Do things easily organized</i> </h4>
 
-lap_controller is a website made with the following technologies:
+</td>
+</tr>
+
+<tr></tr>
+
+<tr><td colspan='2'>
+<br>
+<p align="center"> Lap_controller is a tool used for simple actions these include but are not limited to: opening URLs, running commands and or sending messages.</p>
+
+</td></tr>
+
+</tbody></table>
+
+
+## How was it made?
+
+lap_controller was made with the following technologies:
 - Flask (Python)
 - Bulma (CSS)
 - HTML
 
-## How to start developing
+## How to Start Contributing
 
-It should be pretty easy to start editing.
+It should be pretty easy to start contributing.
+<br>
 You can edit existing HTML pages for example.
-Nothing special is needed, except for some basic web development skill.
+<br>
+Nothing special is needed, except for some basic web development skills.
+<br>
+
+## License
+
+Please see the LICENSE file for more details regarding the license used in this project.
