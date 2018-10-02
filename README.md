@@ -4,8 +4,7 @@
 <tr>
 <td colspan='2'>
 
-<h1>Lap_controller</h1>
-<!-- <img src=""/> A place to add in a link to your banner -->
+<img src="files/Banner for lap_controller.jpg"/>
 <h4> <i>Do things easily organized</i> </h4>
 
 </td>
