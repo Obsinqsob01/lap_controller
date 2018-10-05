@@ -11,8 +11,13 @@ lap_controller is a website made with the following technologies:
 - Bulma (CSS)
 - HTML
 
+There is a activity for upload software and submit to the website.
+
 ## How to start developing
 
 It should be pretty easy to start editing.
 You can edit existing HTML pages for example.
 Nothing special is needed, except for some basic web development skill.
+
+
+
