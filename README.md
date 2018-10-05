@@ -1,5 +1,7 @@
 # lap_controller
-
+<p align="center">
+  <img src="assets/icon/gitArtboard1.svg" width="25%">
+</p>
 Welcome to this project!
 
 ## What is lap_controller
