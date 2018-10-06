@@ -4,7 +4,7 @@
 <tr>
 <td colspan='2'>
 
-<img src="files/Banner for lap_controller.jpg"/>
+<img src="assets/icon/gitArtboard1.svg" width="25%">
 <h4 align="center"> <i>Do things easily organized</i> </h4>
 
 </td>
