@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-  // Get all "navbar-burger" elements
+  // Get all elements "navbar-burger" 
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
   // Check if there are any navbar burgers
   if ($navbarBurgers.length > 0) {
 
-    // Add a click event on each of them
+    // click event on each of them
     $navbarBurgers.forEach(function ($el) {
       $el.addEventListener('click', function () {
 
@@ -37,8 +37,8 @@ let btnUploadFile = document.getElementById('btnUploadFile');
 btnUploadFile.addEventListener('click', () => {
   var formData = new FormData();
 
-  for (var i = 0; i < inputFile[0].files.length; i++) {
-      formData.append(`file[]`, inputFile[0].files[i]);
+  for (var x = 0; x < inputFile[0].files.length; x++) {
+      formData.append(`file[]`, inputFile[0].files[x]);
   }
 
   console.log(inputFile[0]);
